@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-top {
+    height: 200px;
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+
+.box-bottom {
+    display: flex;
+}
+
+.box-1 {
+    height: 300px;
+    width: 80%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+
+.box-2 {
+    height: 300px;
+    width: 20%;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+}
+
+.two {
+    background-color: transparent;
+}
+
+.box-1-1 {
+    height: 50%;
+    width: 100%;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.box-1-general {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.box-1-2 {
+    height: 50%;
+    width: 33.33%;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.box-2-general, .box-3-general {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
