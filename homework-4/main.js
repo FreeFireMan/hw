@@ -299,22 +299,22 @@
 // let nubmerTwo = +prompt('Enter the second number');
 // let nubmerThird = +prompt('Enter the third number');
 //
-// if (nubmerOne > nubmerTwo && nubmerOne > nubmerThird) {
-//     if (nubmerTwo > nubmerThird) {
+// if (nubmerOne >= nubmerTwo && nubmerOne >= nubmerThird) {
+//     if (nubmerTwo >= nubmerThird) {
 //         console.log(nubmerThird, nubmerTwo, nubmerOne);
 //     } else {
 //         console.log(nubmerTwo, nubmerThird, nubmerOne);
 //     }
 // } else
-//       if (nubmerTwo > nubmerOne && nubmerTwo > nubmerThird) {
-//           if (nubmerOne > nubmerThird) {
+//       if (nubmerTwo >= nubmerOne && nubmerTwo >= nubmerThird) {
+//           if (nubmerOne >= nubmerThird) {
 //               console.log(nubmerThird, nubmerOne, nubmerTwo);
 //           } else {
 //               console.log(nubmerOne, nubmerThird, nubmerTwo);
 //           }
 //       } else
-//           if (nubmerThird > nubmerOne && nubmerThird > nubmerTwo) {
-//               if (nubmerOne > nubmerTwo) {
+//           if (nubmerThird >= nubmerOne && nubmerThird >= nubmerTwo) {
+//               if (nubmerOne >= nubmerTwo) {
 //                   console.log(nubmerTwo, nubmerOne, nubmerThird);
 //               } else {
 //                   console.log(nubmerOne, nubmerTwo, nubmerThird);
