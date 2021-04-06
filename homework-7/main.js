@@ -60,7 +60,7 @@
 
 
 // 5) створити функцію яка повертає найбільше число з масиву
-// function outputNumber (arr = []) {
+// function outputNumber (arr) {
 //         let max = arr[0];
 //
 //     for (let i = 0; i < arr.length; i++) {
@@ -76,7 +76,7 @@
 
 
 // 6) створити функцію яка повертає найменьше число з масиву
-// function outputNumber (arr = []) {
+// function outputNumber (arr) {
 //     let max = arr[0];
 //
 //     for (let i = 0; i < arr.length; i++) {
