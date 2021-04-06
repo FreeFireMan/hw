@@ -1,7 +1,7 @@
 // 1) створити функцію яка приймає масив та виводить його
 // let array = [231, 2313, 'adsdas', false, 321.4124];
 //
-// function outputArray (arr) {
+// function outputArray () {
 //     console.log(array)
 //     for (const arrElement of array) {
 //         console.log(arrElement);
@@ -30,7 +30,7 @@
 // 3) створити функцію яка приймає три числа та виводить найменьше. (Без Math.min!)
 // function outputNumber(arr = []) {
 //     let max = arr[0];
-
+//
 //     for (let i = 0; i < arr.length; i++) {
 //         if (arr[i] < max) {
 //             max = arr[i];
