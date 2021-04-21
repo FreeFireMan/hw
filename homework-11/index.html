@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HW#11 Orest Hrynyshyn</title>
+        <style>
+            h2 {
+                margin: 30px 0 10px 0;
+            }
+
+            p {
+                margin: 3px 0;
+            }
+
+            #forma {
+                display: flex;
+                flex-direction: column;
+                width: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="zavd1">
+            <h2>Завдання №1</h2>
+            <textarea id="textarea" cols="30" rows="5" placeholder="Enter text"></textarea>
+        </div>
+
+        <div class="zavd2">
+            <h2>Завдання №2</h2>
+            <form id="forma">
+                <p>Enter name<input id="inputname" type="text" placeholder="enter name" name="someName"></p>
+                <p>Enter your biography<textarea id="inputage" cols="30" rows="5" placeholder="enter text" name="someBio"></textarea></p>
+                <div>
+                    <p>Do you know JavaScript?<input id="check1" type="checkbox" name="someJS"></p>
+                    <p>Do you know HTML?<input id="check2" type="checkbox" name="someHTML"></p>
+                </div>
+                <div>
+                    <p>Gender?</p>
+                    <input id="male" type="radio" value="male" name="gender"><label>Male</label>
+                    <input id="female" type="radio" value="female" name="gender"><label>Female</label>
+                </div>
+                <p>City?</p>
+                <select id="select" name="someCity">
+                    <option value="Lviv">Lviv</option>
+                    <option value="Kyiv">Kyiv</option>
+                    <option value="Dnipro">Dnipro</option>
+                    <option value="Odesa">Odesa</option>
+                </select>
+            </form>
+        </div>
+
+        <div class="zavd3">
+            <h2>Завдання №3</h2>
+            <div>
+                <button id="leftBtn">Left</button>
+                <button id="rigthBtn">Right</button>
+            </div>
+            <textarea id="textareaTwo" cols="20" rows="6" placeholder="Enter text"></textarea>
+            <button id="save">Save text</button>
+        </div>
+
+      <script src="main.js"></script>
+    </body>
+</html>
