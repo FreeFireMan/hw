@@ -105,7 +105,7 @@ function goSleep(action) {
     })
 }
 
-// // Виконання за  допомогою
+// // Виконання за  допомогою Promise
 // wakeUp(true)
 //     .then(value => {
 //         return goEat(true);
