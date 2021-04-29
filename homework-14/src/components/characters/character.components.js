@@ -1,7 +1,7 @@
 import './character.style.css'
 
 function CharacterComponents(props) {
-    const {title, image, alt, description, price} = props;
+    const {id, title, image, alt, description, price, deleteChosenCart} = props;
 
     return <div className={'cart'}>
         <h2>{title}</h2>
@@ -9,7 +9,7 @@ function CharacterComponents(props) {
         <p className={'description'}>{description}</p>
         <div className={'cart-buy'}>
             <p className='price'>{price} UAH</p>
-            <button>Add to Cart</button>
+            <button onClick={() => deleteChosenCart(id)}>Delete Cart</button>
         </div>
     </div>
 }
