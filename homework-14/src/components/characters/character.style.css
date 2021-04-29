@@ -58,3 +58,39 @@ button {
     font-size: 16px;
     color: white;
 }
+
+.btn-del {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    flex-direction: column;
+    margin: 15px 0 30px 0;
+    width: 100%;
+}
+
+.del {
+    background-color: #d71919;
+    font-weight: bold;
+}
+
+.counter {
+    max-width: 274px;
+    border: 2px solid #d71919;
+}
+
+.count-btn {
+    margin: 10px 0 10px 0;
+    width: 135px;
+}
+
+.count-btn-low {
+    margin: 0 0 10px 0;
+    width: 90px;
+}
+
+.count {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #d71919;
+}

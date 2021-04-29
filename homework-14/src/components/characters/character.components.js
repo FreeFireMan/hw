@@ -1,7 +1,7 @@
 import './character.style.css'
 
 function CharacterComponents(props) {
-    const {title, image, alt, description, price} = props.items;
+    const {title, image, alt, description, price} = props;
 
     return <div className={'cart'}>
         <h2>{title}</h2>
